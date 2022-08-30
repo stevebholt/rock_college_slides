@@ -1,0 +1,115 @@
+---
+title: "Template"
+subtitle: "Example Slides"
+author: "Stephen B. Holt"
+date: '2022-08-29'
+output: 
+  beamer_presentation:
+    theme: "Darmstadt"
+    slide_level: 3
+header-includes: 
+- \AtBeginSection{}
+- \AtBeginSubsection{}
+- \AtBeginDocument{\institute{\includegraphics[scale=.1]{logo.png}}}
+- \definecolor{greatdanepurple}{rgb}{0.294, 0.0, 0.51}
+- \definecolor{gold}{rgb}{1.0, 0.84, 0.0}
+- \setbeamercolor{structure}{fg=greatdanepurple}
+- \setbeamercolor{section in head/foot}{bg=greatdanepurple, fg=gold}
+- \setbeamercolor{subsection in head/foot}{bg=gold,fg=violet}
+- \usepackage[utf8]{inputenc}
+- \usepackage{amsmath}
+- \usepackage{amsfonts}
+- \usepackage{amssymb}
+- \usepackage{graphicx}
+- \usepackage{tikz}
+- \usepackage{xcolor}
+- \usepackage{adjustbox}
+- \usepackage{textpos}
+- \setbeamertemplate{footline}[frame number]
+bibliography: references.bib
+link-citations: true 
+---
+
+# Basics of Research
+
+## Overview
+
+### Research Purpose
+
+What is the purpose of research?
+
+In a nutshell, research is the process by which we answer an open question we have about the world.
+
+A good question involves 3 ingredients:
+
+-   A theory about the way the world works
+-   An unknown aspect of the world implied by the theory
+-   A way to observe the unknown aspect of the world and learn from it
+
+Researchers are basically people who never grew out of the \`\`but why?" phase of childhood.
+
+### **Policy** Research Purpose
+
+Policy research functions much the same way:
+
+-   A problem has been identified
+-   A policy - informed by theories about the problem - has been implemented
+-   An observable effect on the problem and related areas can be documented
+
+A policy researcher has an advantage in that often theories about a problem and policy solution can come from external actors - elected officials, administrators, advocates, public debates or news coverage all regularly provide theories about the world.
+
+The disadvantage: policy is an interdisciplinary area so the starting point for a problem can be more difficult to discern.
+
+# Theory
+
+### What is Theory
+
+Theory provides a simple model for understanding why some aspect of the world functions the way that it does.
+
+Theory is necessarily simplified to a set of limited and most immediately relevant factors in the function we are thinking about.
+
+### Disciplines and Theory
+
+Many academic disciplines can be defined by a combination of their share philosophy of research methods and the theories that guide their research enterprises. For instance:
+
+-   Economics focuses on utility maximization, incentives, and exchanges between people.
+-   Sociology focuses on social relationships, norms, cultures, and institutions.
+-   Political Science focuses on the rules of government and how people respond and behave according to different sets of governing rules and institutions.
+-   Psychology focuses on cognitive processes, emotional responses, and motivations behind behaviors.
+
+Collectively, alongside technical issues from STEM fields, these major disciplines provide theoretical foundations for many of the issues we encounter in studying public policy.
+
+### Example - School Accountability
+
+**Problem:** Concern in the 1980's that Americans were falling behind internationally in terms of literacy and knowledge of mathematics.
+
+**Theory:** Schools do not face accountability pressures from the public regarding student growth or performance.
+
+# Questions
+
+### What is a research question?
+
+A research question asks about something related to the theory driving the question.
+
+\textcolor{red}{People dislike frictions in their daily lives}, so \textcolor{blue}{do bus schedules have a strong influence on whether people ride the bus?}
+
+The text in \textcolor{red}{red} provides a theory about the basic state of the world and the text in \textcolor{blue}{blue} gives us a research question about a transit policy that we might be able to answer and, in doing so, speak to the validity of the theory.
+
+### A Good Research Question
+
+A good research question:
+
+-   Can be answered with the collection of observable data
+-   Can provide general insights about the theory driving the question
+-   Contains an implied hypothesis about the world related to the underlying theory
+
+### School Accountability
+
+Some example questions:
+
+-   How do schools affect student learning? [@dobbie2011]
+-   Does sharing information about school performance change or improve school operations? [@craig2015]
+-   Does giving teachers bonuses change school performance? [@holt2022]
+-   Are there other outcomes that schools produce? [@jackson2018; @holt2019]
+
+# References {.allowframebreaks}
